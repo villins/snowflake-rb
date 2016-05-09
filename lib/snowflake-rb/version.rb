@@ -1,3 +1,5 @@
-class SnowflakeRb
-  VERSION = "0.0.1"
+module Snowflake
+  module Rb
+    VERSION = "0.0.1"
+  end
 end

@@ -9,20 +9,24 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'snowflake-rb'
+gem 'snowflake-rb', git: "git@github.com:villins/snowflake-rb.git"
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install snowflake-rb
-
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'snowflake-rb'
+
+sf = Snowflake::Rb.snowflake(1, 1)
+
+sf.next_id
+# or
+sf.next
+```
 
 ## Development
 
