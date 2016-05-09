@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ snowflake ruby impl }
   spec.description   = %q{ snowflake ruby impl }
-  spec.homepage      = " https://github.com/villins/snowflake-rb "
+  spec.homepage      = "https://github.com/villins/snowflake-rb"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
